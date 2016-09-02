@@ -8,7 +8,7 @@ import {areEqual} from './utility';
 export class ContactDetail {
   static inject() { return [WebAPI, EventAggregator]; }
 
-  constructor(api) {
+  constructor(api, ea) {
     this.api = api;
     this.ea = ea;
   }

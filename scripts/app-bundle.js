@@ -63,7 +63,7 @@ define('contact-detail',['exports', 'aurelia-event-aggregator', './messages', '.
       return [_webApi.WebAPI, _aureliaEventAggregator.EventAggregator];
     };
 
-    function ContactDetail(api) {
+    function ContactDetail(api, ea) {
       _classCallCheck(this, ContactDetail);
 
       this.api = api;
